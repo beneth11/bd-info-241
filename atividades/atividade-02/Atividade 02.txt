@@ -1,0 +1,34 @@
+A) Entidade
+
+conjunto de objetos da realidade modelada sobre os quais deseja-se manter informações no banco de dados. 
+
+B) Relacionamento
+
+Relacionamento é associação entre duas (ou mais) entidades. Ex: Médico e paciente.
+
+C) Atributo
+
+Os atributos são características de cada ocorrência ou relacionamento que deseja-se guardar no banco de dados.
+
+D) Domínio de um atributo
+
+É um conjunto de grupos de atributos que contêm tipos de atributo semelhantes.
+
+E)Generalização/Especialização
+
+Consiste-se em uma entidade genérica e subconjuntos mais específicos, lembrando que a ocorrência da entidade genérica possui além de seus atributos os atributos da especialização.
+
+Ela pode ser classificada em dois tipos, Total ou Parcial, de acordo com a obrigatoriedade ou não de cada ocorrência da entidade especializada. 
+
+Em uma Total pode ser classificada em dois tipos, total ou parcial, de acordo com a obrigatoriedade ou não de cada ocorrência da entidade especializada.
+
+Em uma Parcial nem toda ocorrência da entidade genérica possui ocorrência em uma entidade especializada, esse tipo de generalização/especificação é simbolizado por um “p”.
+
+F) Entidade Associativa
+
+esse tipo de entidade surge quando há a necessidade de associar uma entidade a um relacionamento existente. Na modelagem Entidade-Relacionamento não é possível que um relacionamento seja associado a uma entidade, então tornamos esse relacionamento uma entidade associativa, que a partir daí poderá se relacionar com outras entidades.
+
+G) Cardinalidade de um atributo
+
+A cardinalidade caracteriza o número mínimo ou máximo de valores de atributos associados a cada instante da entidade ou do relacionamento.
+
